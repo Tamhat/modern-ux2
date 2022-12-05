@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'check';
+    src: url(Patron-PersonalUse.otf);
+}
+
+* {
+    color: rgb(255, 255, 255);
+    font-family: "check";
+}
+
+p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.75em;
+    word-spacing: 2px;
+    color: rgba(255, 255, 255, 0.7);
+    text-transform: capitalize;
+    font-family: "Montserrat";
+    line-height: 1.75rem;
+}
+
+body {
+    background-image: url("https://i.ibb.co/85JzjfN/Mesh-Holographic-Gradients-Dark-Gradient-10.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 200vh;
+}
+
+.hero-section {
+    background-image: radial-gradient(circle, #0032ef, #002bbb, #002288, #0a1858, #0d0a2c);
+    background-image: url(https://www.androidauthority.com/wp-content/uploads/2021/06/windows-11-wallpaper-4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+.hero-section .h-c1 {
+    position: relative;
+    top: 30%;
+}
+
+.hero-section h1 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    text-align: center !important;
+}
+
+.hero-section h1 span {
+    color: #FFC837;
+}
+
+.hero-section .button {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.hero-section .button button {
+    background-image: linear-gradient(to right, #FF8008 0%, #FFC837 51%, #FF8008 100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    font-weight: bold;
+    border: 0px;
+    outline: none;
+}
+
+.hero-section .button button:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.mid-sec {
+    background-image: url("https://i.ibb.co/85JzjfN/Mesh-Holographic-Gradients-Dark-Gradient-10.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+    height: 95vh;
+    position: relative;
+    top: -2.5%;
+}
+
+.mid-sec .market {
+    position: relative;
+    top: 35% !important;
+    width: 120% !important;
+}
+
+.mid-sec .mrt {
+    position: relative !important;
+    top: 50%;
+    left: 5%;
+    color: #ffffff;
+}
+
+.mid-sec .mrt span {
+    color: #FFC837;
+}
+
+.mid-sec .mr-1 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.mid-sec .mr-3 {
+    position: relative !important;
+    top: 52%;
+    left: 5%;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.mid-sec .mr-3 .btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    background-image: linear-gradient(to right, #ff00cc 0%, #333399 51%, #ff00cc 100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+}
+
+.mid-sec .mr-3 .btn:hover {
+    background-position: right center;
+    text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
